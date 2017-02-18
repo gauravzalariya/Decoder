@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/PersonalDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Producer_Details"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp">
+
+            <TextView
+                android:id="@+id/txt_cuisine_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="cuisine_type"
+                />
+
+            <EditText
+                android:id="@+id/cuisine_type"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="cuisine_type"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/text_cuisine_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="cuisine_name"
+
+                />
+
+            <EditText
+                android:id="@+id/cuisine_name"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="cuisine_name"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/textprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLe="20dp"
+                android:text="price"
+                />
+
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="price"
+                android:layout_marginLeft="93dp"
+                android:layout_marginTop="85dp"
+                android:layout_weight="1"
+
+
+                />
+
+            <TextView
+                android:id="@+id/textquantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="138dp"
+                android:text="quantity"
+                />
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="quantity"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="93dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Spinner
+
+                    android:id="@+id/from_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown" />
+
+                <Spinner
+                    android:id="@+id/to_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply"
+                android:id="@+id/button"
+                android:layout_marginTop="250dp"
+                android:layout_gravity="bottom" />
+
+
+        </RelativeLayout>
+
+
+        </LinearLayout>
